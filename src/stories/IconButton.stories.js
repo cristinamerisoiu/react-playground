@@ -18,6 +18,7 @@ export const EuroIcon = () => (
     <Euro />
   </IconButton>
 );
+
 // // function Inactive () {
 //   return <IconButton />
 // }
