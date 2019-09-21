@@ -6,8 +6,9 @@ const CardContainer = styled.article`
   width: 360px;
   height: 133px;
   color: black;
-  border-radius: 3px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(10, 10, 10, 0.2);
+  background-color: rgba(222, 222, 222, 0.3);
 `;
 
 export default function Card() {

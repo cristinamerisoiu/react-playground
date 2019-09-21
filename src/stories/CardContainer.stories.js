@@ -5,4 +5,4 @@ export default {
   title: "Card"
 };
 
-export const DefaultCard = () => <Card></Card>;
+export const DefaultCard = () => <Card />;
