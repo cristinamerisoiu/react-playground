@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Proptypes from "prop-types";
 
 const Badge = styled.div`
   display: inline-block;
@@ -13,3 +14,7 @@ const Badge = styled.div`
 export default function DefaultBadge({ active = true, children }) {
   return <Badge clickedIcon={active}>{children}</Badge>;
 }
+
+Badge.propTypes = {
+  clickedIcon: Proptypes.any
+};
